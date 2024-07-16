@@ -1,0 +1,223 @@
+.a{
+    width: 100%;
+    height: fit-content;
+    background-color:bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.b{
+    height: 350px;
+    width: 200px;
+    background-color: white;
+    /* box-sizing: border-box; */
+    border: 2px solid white; 
+    border-radius: 15px;
+    box-shadow: 2px 2px 30px grey;
+    margin: 30px;
+    position: relative;
+}
+.b1{
+    height: 50px;
+    width: 10px;
+    border: 2px solid black;
+    background-color: rgb(62, 62, 62);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 15%;
+    margin-right: 2px;
+}
+.b11{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.oMAKQzBWG5wp7BQ50Na2UQHaHa&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b12{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+}
+.b13{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.dFqTTsbaOt6Lk3ZZjo7OTAHaHa&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b14{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b15{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://www.bhphotovideo.com/images/images1000x1000/dell_pxk14_wm123_optical_mouse_1135878.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b16{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b17{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.a3N2qWhZxoFLmZe9X6MLTgHaHa&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b18{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b19{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.ZJSmYc0i8nZH4Axq3_IX_gHaEe&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b20{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b21{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.7AmryFoxxCFdOIIQ0PcpogHaHa&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b22{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b23{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("http://3.bp.blogspot.com/-OipYuuNx7bc/UYznOsel-mI/AAAAAAAAA48/voQrFOp9vNI/s1600/laptop.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b24{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b25{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://i5.walmartimages.com/asr/78ff8e5b-5570-4eb2-8ca0-422e4a64d51e.a392ad46e96f707de61a5547318e70d1.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b26{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b27{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://www.vplak.com/images/sandisk/SDDDC3-128G-A46/black/image-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b28{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+} 
+.b29{
+    height: 270px;
+    width: 175px;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/I/71GZBEF9JgL._SL1500_.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+.b30{
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+}
+.b{
+    height: 400px;
+    width: 300px;
+}

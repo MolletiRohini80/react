@@ -1,0 +1,31 @@
+/*.testing{
+    height: 500px;
+    width: 500px;
+    font-size: 150px;
+    font-weight: 50;
+    border: 2px solid black;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.19Qdn94SqJ3MZyh4HD5krAHaIm&pid=Api&P=0&h=180");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-clip: text;
+}*/
+.parent{
+    background-color: rgb(241, 243, 243);
+    height: 1000px;
+    width: 800px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 45, 82);
+    /*position: fixed;
+    right: 0;
+    bottom: 0;*/
+    /*position: sticky;
+    top:70*/
+    /*position: absolute;*/
+    /*position: relative;
+    top: 500px;*/
+    
+}

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./event.css"/>
+        <script src="./event.js"></script>
+    </head>
+    <body>
+        <!-- <div class="a" onclick="alert('hai')"></div> -->
+         <!-- <input type="text" onchange="fun(event)"> -->
+        <div class="main">
+        <div class="a">
+            <center><h1 style="color: darkblue;">FORM</h1></center>
+            <p><b>First Name:</b><input type="text" onchange="fname(event)"></p> 
+            <p><b>second Name:</b><input type="text" onchange="sname(event)"></p> 
+            <p><b>DOB:</b><input type="date" onchange="Dob(event)"></p>   
+            <p><b>Age:</b><input type="text" onchange="age(event)"></p>
+            <p><b>Father Name:</b><input type="text" onchange="fathername(event)"></p> 
+            <p><b>Mother Name:</b><input type="text" onchange="mothername(event)"></p>
+            <p><b>Address:</b><input type="text" onchange="addr(event)"></p>
+            <label><b>Gender:</b></label>
+            <input type="radio" onchange="gen(event)" value="male">
+            <label>Male</label>
+            <input type="radio"  onchange="gen(event)" value="female">
+            <label>Female</label>
+            <p><b>Certification:</b><input type="text" onchange="cer"></p>
+            <p style="display: flex;justify-content: center;align-items:center;"><b>Academics details</b></p>
+            <table>
+                <tr>
+                    <th>N.I</th>
+                    <th>passout</th>
+                    <th>Percentage</th>
+                    <th>Place</th>
+                </tr>
+                <tr>
+                    <td>S.S.C</td>
+                    <td onchange="SSCy(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="SSCp(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="SSCpl(event)"><input type="text" style="background-color: transparent;"></td> 
+                </tr>
+                <tr>
+                    <td>Inter</td>
+                    <td onchange="Iy(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="Ip(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="Ipl(event)"><input type="text" style="background-color: transparent;"></td>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td onchange="By(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="Bp(event)"><input type="text" style="background-color: transparent;"></td>
+                    <td onchange="Bpl(event)"><input type="text" style="background-color: transparent;"></td>
+                </tr>
+            </table>
+            <p><b>Skills:</b><textarea onchange="skill(event)"></textarea></p>
+            <p><b>Hobbies:</b><textarea onchange="hobbies(event)"></textarea></p>
+            <p><b>Profile:</b><input type="file"></p>
+            <button onclick="sub()">Sumbit</button>     
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+.a{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.a1{
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(to bottom , black,grey,white);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    animation-name: ani3;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.a2{
+    height: 50%;
+    width: 100%;
+    background:linear-gradient(to bottom,red,orange,white);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    animation-name: ani2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.a3{
+    height: 30%;
+    width: 10%;
+    background-color: ;
+    background-image: url("https://purepng.com/public/uploads/large/purepng.com-moonmoonastronomical-bodyfifth-largest-natural-satellitenatural-satellitemoon-light-1411527066400cswzf.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 300px;
+    animation-name: my_ani;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+}
+.a4{
+    height: 34%;
+    width: 10%;
+    background-color:;
+    background-image: url("https://www.freepnglogos.com/uploads/sun-png/sun-png-aecert-background-and-rationale-physics-36.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 300px;
+    animation-name: ani1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes my_ani{
+    0%{
+        transform: rotate(0deg) translateX(300px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(300px);
+    }
+}
+@keyframes ani1{
+    0%{
+        transform: rotate(180deg) translateX(300px);
+    }
+    100%{
+        transform: rotate(540deg) translateX(300px);
+    }
+}
+@keyframes ani2{
+    0%{
+        background: linear-gradient(to bottom , black,grey,white);
+    }
+    100%{
+        background:linear-gradient(to bottom,red,orange,white);
+    }
+}
+@keyframes ani3{
+    0%{
+        background:linear-gradient(to bottom,red,orange,white);
+    }
+    100%{
+        background: linear-gradient(to bottom , black,grey,white); 
+    }
+} 

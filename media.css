@@ -1,0 +1,1006 @@
+/* button{
+    height: 400px;
+    width: 700px;
+    background-color: blue;
+    font-size: 25px;
+}
+@media screen and (max-width:650px){
+    button{
+        background-color: lightblue;
+    }
+} */
+ *{
+    padding: 0;
+    margin: 0;
+ }
+.body{
+    background-color: aquamarine;
+
+}
+.main{
+    height: 90%;
+    width: 100%;
+    background-color: beige;
+    background-image: url("https://i.pinimg.com/originals/ec/c7/8b/ecc78b545ada08f80e12f8fe3190b821.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.a{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color:; */
+    position: fixed;
+    border-bottom: 3px solid white;
+    background: linear-gradient(to top,black,white);
+    opacity: 0.8;
+}
+.a1{
+    height: 100%;
+    width: 20%;
+    /* background-color: ; */
+    background-image: url("https://www.pngplay.com/wp-content/uploads/7/Interior-Design-Logo-Background-PNG-Image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* position: absolute;
+    left: 5%; */
+}
+.a2{
+    height: 100%;
+    width: 45%;
+    /* background-color:; */
+    color: white;
+    font-size: 25px;
+    /* position: absolute;
+    left: 27%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b:hover{
+    border-bottom: 4px solid red;
+}
+#b1:hover{
+    border-bottom: 4px solid red;
+}
+#b2:hover{
+    border-bottom: 4px solid red;
+}
+#b3:hover{
+    border-bottom: 4px solid red;
+}
+.a3{
+    height: 30%;
+    width: 3%;
+    /* background-color:white; */
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* overflow: hidden;  */
+    /* position: absolute;
+    left: 90%; */
+}
+.option{
+    height: 180%;
+    width: 0px;
+    /* height: fit-content; */
+    background-color: black;
+    position: absolute;
+    color: white;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    /* display: none; */
+    transition: all 1s;
+}
+.options{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.options:hover{
+    text-shadow: 10px 10px 3px white;
+    cursor: pointer;
+    display: block;
+}
+.a4{
+    height: 15%;
+    width: 30%;
+    /* background-color:; */
+    color: white;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top: 35%;
+    left: 15%;
+}
+.a5{
+    height: 5%;
+    width: 30%;
+     /* background-color: lightblue; */
+    color: white;
+    font-size: 29px;
+    position: absolute;
+    top: 53%;
+    left: 15%;
+}
+@media screen and (max-width:500px){
+    .a2{
+        display: none;
+    }
+}
+@media screen and (min-width:500px){
+    .a3{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .a3{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:500px){
+    .a1{
+        height: 100%;
+        width: 50%;
+    }
+}
+@media screen and (min-width:200px){
+    .a4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px){
+    .a4{
+        left: 40%;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:800px){
+    .a2{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:200px){
+    .a5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .a5{
+        left: 28%;
+        font-size: 15px;
+        height: 5%;
+        width: 50%;
+    }
+}
+.main1{
+     height: 100%;
+     width: 100%;
+     background-color: #F4F4F4;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+}
+.a6{
+    height: 5%;
+    width: 100%;
+    background-color: #F4F4F4;
+}
+.c{
+    height: 8%;
+    width: 100%;
+    /* background-color:; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.c11{
+    margin-bottom: 1%;
+}
+#d{
+    height: 50px;
+    width: 200px;
+    /* background-color:; */
+    border: 2px solid red;
+    color: black;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#d1{
+    height: 50px;
+    width: 200px;
+    /* background-color:; */
+    border: 2px solid red;
+    color: black;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#d2{
+    height: 50px;
+    width: 200px;
+    /* background-color:; */
+    border: 2px solid red;
+    color: black;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#d3{
+    height: 50px;
+    width: 200px;
+    /* background-color:; */
+    border: 2px solid red;
+    color: black;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#d:hover{
+    background-color: red;
+    color: white;
+}
+#d1:hover{
+    background-color: red;
+    color: white;
+}
+#d2:hover{
+    background-color: red;
+    color: white;
+}
+#d3:hover{
+    background-color: red;
+    color: white;
+}
+.c2{
+    height: 15%;
+    width: 100%;
+    /* background-color: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: grey;
+}
+.c3{
+    height: 57%;
+    width: 100%;
+    /* background-color:; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.e{
+    height: 90%;
+    width: 20%;
+    /* background-color: ; */
+    border-radius: 45px;
+}
+.e11{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    /* background-color:; */
+    background-image: url("https://i.pinimg.com/originals/16/38/84/163884d92557e6dd9669756ade141e68.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+.e12{
+    height: 10%;
+    width: 100%;
+    /* background-color: ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+}
+.e1{
+    height: 100%;
+    width: 10%;
+    /* background-color: ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.e13{
+    height: 15%;
+    width: 50%;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    color: red;
+}
+.e2{
+    height: 420px;
+    width: 340px;
+    border-radius: 45px;
+    /* background-color: ; */
+}
+.e21{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    /* background-color: ; */
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.XbTocnTZ1Yk7bJCf4MNpvAHaHa&pid=Api&P=0&h=180https://foter.com/photos/419/oversized-unique-wall-clocks-for-living-room.jpeg?s=l");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.e22{
+    height: 10%;
+    width: 100%;
+    /* background-color: ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+}
+.e2:hover{
+    height: 430px;
+    width: 350px;
+}
+.e3{
+    height: 100%;
+    width: 10%;
+    /* background-color: ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.e14{
+    height: 15%;
+    width: 50%;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    color: red;
+}
+.e4{
+    height: 90%;
+    width: 20%;
+    border-radius: 45px;
+    /* background-color: ; */
+}
+.e41{
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    /* background-color: ; */
+    background-image: url("http://4.bp.blogspot.com/-36ybYChDwW4/VSTrAuw7s5I/AAAAAAAAABU/DHqica5ako8/s1600/Gorgeous-Floor-Lamps-design-for-your-home-Interior-big-size-with-wood-artistic-shade-decor-and-bright-lights.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+.e42{
+    height: 10%;
+    width: 100%;
+    /* background-color:; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+}
+@media screen and (max-width:700px) {
+    .c{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:700px) {
+    #d{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px) {
+    #d1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px) {
+    #d2{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:700px) {
+    #d3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px){
+    .e{
+        display: none;
+    }
+    .e4{
+        display: none;
+    }
+}
+/* @media screen and (max-width:600px){
+    .e2{
+        height: 95%;
+        width: 20%;
+    }
+} */
+.main2{
+    height: fit-content;
+    width: 100%;
+    /* background-color: black; */
+}
+.f{
+    height: 5%;
+    width: 100%;
+    background-color: white;
+}
+.f1{
+    height: 8%;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f2{
+    height: fit-content;
+    width: 90%;
+    /* background-color: aqua; */
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.f21{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.f22{
+    height: 90%;
+    width: 90%;
+    background-color: aquamarine;
+    background-image: url("https://images.news18.com/ibnlive/uploads/2023/05/ola-electric-1-168413560116x9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f31{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.f32{
+    height: 90%;
+    width: 90%;
+    background-color: aquamarine;
+    background-image: url("https://www.graphream.com/upload/case_studies/case_study_imgc39a8ef38d17ed831127374d118296541650864898.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f41{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.f42{
+    height: 90%;
+    width: 90%;
+    background-color: aquamarine;
+    background-image: url("https://www.dlfmallofindia.com/Assets/stores/DUA02521.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f51{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.f52{
+    height: 90%;
+    width: 90%;
+    background-color: aquamarine;
+    background-image: url("https://spainlifeexclusive.com/wp-content/uploads/2017/06/Mango_Mannheim_O6NEW.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f61{
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.f62{
+    height: 90%;
+    width: 90%;
+    background-color: aquamarine;
+    background-image: url("https://www.kajariaceramics.com/test_folder/mobileapp/uploads/news/1574589520_2_ceramic-(1).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@media screen and (max-width:500px){
+    .f2{
+        height: 70%;
+    }
+}
+.main3{
+    height: 18%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .g{
+    height: 90%;
+    width: 90%;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s linear;
+    animation-name: ani;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+#g1{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://vectorseek.com/wp-content/uploads/2020/12/Bata-logo-vector-01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: ani;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#g2{
+    height: 130px;
+    width: 180px;
+    background-color:blueviolet;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.2KUAgClYuDAcY5DSPaHzGAHaEM&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g3{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://www.sharemarketexpress.com/wp-content/uploads/2023/01/Kajaria-Ceramics-Ltd-Share.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g4{
+    height: 130px;
+    width: 180px;
+    background-color:blueviolet;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.XM5BUDbEb-rsEELB1S-mZAHaC7&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g5{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://logowik.com/content/uploads/images/peter-england4491.logowik.com.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g6{
+    height: 130px;
+    width: 180px;
+    background-color:blueviolet;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4E0BAQGe0VfpA-VBvw/company-logo_200_200/0/1628405082051?e=2159024400&v=beta&t=hDx-h_cVm3ZmLSnK1mXOr35bZ0UgztU_pQ86cx3IoBs");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g7{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://indiancompanies.in/wp-content/uploads/2020/05/TCS-Logo-Tata-consultancy-service-1920x1144.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g8{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.Sewx1xc_uL_q2kCFAM-DVwAAAA&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g9{
+    height: 130px;
+    width: 180px;
+    background-color:blueviolet;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.YnJH4dSgzr1L6GdtZUUDgAHaHa&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#g10{
+    height: 130px;
+    width: 180px;
+    background-color: beige;
+    background-image: url("https://dog55574plkkx.cloudfront.net/storelogo/web/John-Jacobs.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* @keyframes ani{
+    0%{
+       transition: all 10s linear;
+    }
+    100%{
+        transition: all 10s linear;
+    }
+} */
+.main4{
+      height: 90%;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.k{
+    height: 70%;
+    width: 95%;
+    background-color: white;
+    border-radius: 40px;
+}
+.k1{
+    height: 15%;
+    width: 94%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.k2{
+    height: 80%;
+    width: 25%;
+    border-radius: 30px;
+    font-size: 22px;
+    /* background-color:bisque; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k2:hover{
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width:600px){
+    .spa{
+         display:none;
+    }
+}
+@media screen and (max-width:900px){
+    .k2{
+        font-size: 15px;
+    }
+}
+.k3{
+    height: 55%;
+    width: 94%;
+    /* background-color: bisque; */
+    margin-top: 6%;
+    margin-left: 3%;
+}
+.k31{
+    height: 15%;
+    width: 100%;
+    /* background-color: black; */
+    color: red;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 5%; */
+}
+.k32{
+    height: 28%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17.8px;
+}
+.k33{
+    height: 28%;
+    width: 100%;
+    /* background-color:cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17.8px;
+}
+.k34{
+    height: 28%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17.8px;
+    /* font-size: 105%; */
+}
+@media screen and (max-width:800px){
+    .k32{
+        font-size: 12px;
+    }
+    .k33{
+        font-size: 12px;
+    }
+    .k34{
+        font-size: 12px;
+    }
+}
+.main5{
+    height: fit-content;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l{
+    height: fit-content;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    flex-wrap: wrap;
+}
+.l1{
+    height: 400px;
+    width: 410px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l11{
+    height: 80%;
+    width: 70%;
+    /* background-color: white; */
+    background-image: url("https://i.pinimg.com/736x/36/ae/66/36ae66d9817d136fe6bedc7c2570ed83.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 15px black;
+}
+.l2{
+    height: fit-content;
+    width: 600px;
+    /* background-color: blueviolet; */
+}
+.l21{
+    height: 15%;
+    width: 100%;
+    /* background-color: white; */
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l22{
+    height: 20%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l23{
+    height: fit-content;
+    width:100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.l3{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    margin: 3%;
+}
+.l3:hover{
+    background-color: red;
+    color: white;
+}
+.l31{
+    height: 10%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+.l4{
+    height: 50%;
+    width: 40%;
+    border: 3px solid red;
+    border-radius: 25px;
+    margin:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.main6{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+}
+.m{
+    height: fit-content;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t3.ftcdn.net/jpg/06/60/71/38/240_F_660713879_Ui9pWQw2PKxshdKnIghqzKkxS2i7MKLv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+    
+}
+.n{
+    height: 200px;
+    width: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n11{
+    height: 70%;
+    width: 40%;
+    /* background-color: white; */
+    background-image: url("https://www.freepnglogos.com/uploads/logo-home-png/home-blue-logo-house-png-20.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.n1{
+    height: 200px;
+    width: 700px;
+    /* background-color: aqua; */
+}
+.n12{
+    height: 13%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    font-size: 23px;
+}
+.n13{
+    height: 19%;
+    width: 100%;
+    /* background-color:beige; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    font-size: 23px;
+}
+.n14{
+    height: 13%;
+    width: 100%;
+    /* background-color:aquamarine; */
+    color: white;
+    font-size: 21px;
+}
+.n15{
+    height: 15%;
+    width: 100%;
+    /* background-color: beige; */
+    color: white;
+    font-size: 25px;
+}
+/* .m1{
+    height: 20%;
+    width: 100%;
+    background-color: antiquewhite;
+} */
+
+.main7{
+    height: 80%;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+}
+.p{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    position: absolute;
+}
+.p1{
+    height: 90%;
+    width: 90%;
+    background-color: blue;
+    position: absolute;
+    transition: all 1s linear;
+}
+/* .p1:hover{
+    position: absolute;
+    left: -1000px;
+} */

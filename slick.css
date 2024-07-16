@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 50%;
+    width: 70%;
+    border: 2px solid darkblue;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    position: relative;
+    /* gap: 3px; */
+}
+.child{
+    height: 300px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+.ch{
+    height: 100%;
+    width: 80%;
+    /* background-color: aqua; */
+    background-image: url("./ninnu_kori.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* .slick-slide{
+    margin-left: 10px !important;
+} */
+.slick-dots{
+    position: absolute;
+    bottom: 0px;
+}
+li button{
+    display: none;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+.slick-active{
+    color: brown;
+}
+.prev{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    font-size: 15px;
+}
+.next{
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    font-size: 15px;
+}

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Election polling survey</title>
+        <script src="./event.js"></script>
+    </head>
+    <body style="display: flex;justify-content: center;align-items: center;">
+        <!-- <h1>Election polling survey</h1> -->
+        <form>
+            <h1>Election polling survey</h1>
+        <lable>Name</lable>
+        <input type="text" onchange="fun(event)"/><br><br>
+        <label>Age</label>
+        <input type="number" onchange="fun(event)"/><br><br>
+        <label>Address</label>
+        <input type="text" onchange="fun(event)"/><br><br>
+        <label>Gender:</label>
+        <input type="radio" value="Male" onchange="fun(event)"/>
+        <label >Male</label>
+        <input type="radio" value="Female" onchange="fun(event)"/>
+        <label>Female</label>
+        <input type="radio"  value="other" onchange="fun(event)"/>
+        <label>Other</label>
+        <br><br> 
+        <label><b>Are You Registered to Vote:</b></label>
+        <input type="radio" name="a" value="YES" onchange="fun(event)"/>
+        <label>YES</label>
+        <input type="radio" name="a" value="NO" onchange="fun(event)"/>
+        <label>NO</label><br><br>
+        <label><b>Have you voted in the past election:</b></label>
+        <input type="radio" name="b" value="YES" onchange="fun(event)"/>
+        <label >YES</label>
+        <input type="radio" name="b" value="N0" onchange="fun(event)"/>
+        <label >NO</label><br><br>
+        <label><b>Which party do you support:</b></label>
+        <select onchange="fun(event)">
+            <option value="TDP" name="c">TDP</option>
+            <option value="YCP" name="c">YCP</option>
+            <option value="NOTA" name="c">NOTA</option>
+        </select><br><br>
+        <lable><b>How satisfied with the current administration:</b></lable><br>
+        <input type="checkbox"  value="Very Satisfied" onchange="fun(event)"/>
+        <lable>Very Satisfied</lable><br>
+        <input type="checkbox"  value="Satisfied" onchange="fun(event)"/>
+        <lable>Satisfied</lable><br>
+        <input type="checkbox"  value="Not Satisfied" onchange="fun(event)"/>
+        <lable>Not satisfied</lable><br>
+        <input type="checkbox"  value="Disapointed" onchange="fun(event)"/>
+        <lable>Disapointed</lable><br><br>
+        <label><b>Any suggestion for the upcoming administration:</b></label>
+        <textarea onchange="fun(event)">write feedback.....</textarea><br><br>
+        <button type="sumbit">Sumbit</button>
+        <button type="reset">Reset</button><br><br>
+        </form>
+    </body>
+</html>

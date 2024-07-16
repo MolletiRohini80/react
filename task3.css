@@ -1,0 +1,969 @@
+.a{
+    height: 10%;
+    width: 80%;
+    background-color:;
+    position: absolute;
+    bottom: 90%;
+}
+.a1{
+    height: 80%;
+    width: 10%;
+    background-color: ;
+    color: lightgrey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+.a2{
+    height: 80%;
+    width: 7%;
+    background-color:;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 85%;
+    top: 8%;
+}
+.b{
+    height: 70%;
+    width: 80%;
+    background-color: aqua;
+    background-image: url("https://www.achievers.com/wp-content/uploads/2020/08/08-31-20-2-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10%;
+}
+.b1{
+    height: 25%;
+    width: 30%;
+    background-color:;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 58px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+.b2{
+    height: 5%;
+    width: 10%;
+    background-color:;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 89%;
+    left: 15%;
+}
+.b3{
+    height: 25%;
+    width: 16%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+.box{
+    height: 77%;
+    width: 55%;
+    background-color: ;
+    position: absolute;
+}
+.box1{
+    height: 70%;
+    width: 100%;
+    background-color:;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b31{
+    height: 95%;
+    width: 70%;
+    border-radius: 350px;
+    background-image: url("https://cdn-icons-png.freepik.com/512/9156/9156530.png");
+    background-repeat: no-repeat;
+    background-size: 95% 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: lightgrey;
+}
+.b32{
+    height: 40%;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 100%;
+}
+.b4{
+    height: 25%;
+    width: 16%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+.box2{
+    height: 77%;
+    width: 55%;
+    background-color: ;
+    position: absolute;
+}
+.box3{
+    height: 70%;
+    width: 100%;
+    background-color:;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b41{
+    height: 95%;
+    width: 70%;
+    border-radius: 350px;
+    background-image: url("https://mandakinidesign.in/assets/img/icons/Graphic-Design.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: lightgrey;
+}
+.b42{
+    height: 40%;
+    width: 100%;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 100%;
+}
+.b5{
+    height: 25%;
+    width: 16%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 68%;
+    left: 55%;
+}
+.box4{
+    height: 77%;
+    width: 55%;
+    background-color: ;
+    position: absolute;
+}
+.box5{
+    height: 70%;
+    width: 100%;
+    background-color:;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b51{
+    height: 95%;
+    width: 70%;
+    border-radius: 350px;
+     background-image: url("https://www.f-cdn.com/assets/main/en/assets/illustrations/tech/development.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: lightgrey;
+}
+.b52{
+    height: 40%;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 100%;
+}
+.b6{
+    height: 25%;
+    width: 16%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 68%;
+    left: 72%;
+}
+.box6{
+    height: 77%;
+    width: 55%;
+    background-color:;
+    position: absolute;
+}
+.box7{
+    height: 70%;
+    width: 100%;
+    background-color:;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b61{
+    height: 95%;
+    width: 70%;
+    border-radius: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/network-security-3/32/network-security-15-1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: lightgrey;
+}
+.b62{
+    height: 40%;
+    width: 100%;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 100%;
+}
+.c{
+    height: 70%;
+    width: 80%;
+    background-color: #F2F2F2;
+    position: absolute;
+    top: 80%;
+}
+.c1{
+    height: 10%;
+    width: 100%;
+    background-color: ;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 9%;
+}
+.c2{
+    height: 10%;
+    width: 40%;
+    background-color: ;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.c3{
+    height: 20%;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 43%;
+    left: 9%;
+}
+.c31{
+    height: 100%;
+    width: 20%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4%;
+}
+.d{
+    height: 50%;
+    width: 60%;
+    border-radius: 300px;
+    background-color: #1847B8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 40%;
+}
+.c32{
+    height: 30%;
+    width: 30%;
+    background-color: ;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 6%;
+    left: 27%;
+}
+.c33{
+    height: 45%;
+    width: 70%;
+    background-color: ;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 43%;
+    left: 27%;
+}
+.c4{
+    height: 20%;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 43%;
+    left: 51%;
+}
+.d1{
+    height: 50%;
+    width: 60%;
+    border-radius: 300px;
+    background-color: #1847B8;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40%;
+}
+.c41{
+    height: 100%;
+    width: 20%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4%;
+}
+.c42{
+    height: 30%;
+    width: 30%;
+    background-color:;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 6%;
+    left: 27%;
+}
+.c43{
+    height: 45%;
+    width: 70%;
+    background-color: ;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 43%;
+    left: 27%;
+}
+.c5{
+    height: 20%;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 68%;
+    left: 9%;
+}
+.d2{
+    height: 50%;
+    width: 60%;
+    border-radius: 300px;
+    background-color:#1847B8;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40%;
+}
+.c51{
+    height: 100%;
+    width: 20%;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4%;
+}
+.c52{
+    height: 30%;
+    width: 30%;
+    background-color:;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 6%;
+    left: 27%;
+}
+.c53{
+    height: 45%;
+    width: 70%;
+    background-color:;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 43%;
+    left: 27%;
+}
+.c6{
+    height: 20%;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 68%;
+    left: 51%;
+}
+.d3{
+    height: 50%;
+    width: 60%;
+    border-radius: 300px;
+    background-color: #1847B8;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40%;
+}
+.c61{
+    height: 100%;
+    width: 20%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4%;
+}
+.c62{
+    height: 30%;
+    width: 30%;
+    background-color:;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 6%;
+    left: 27%;
+}
+.c63{
+    height: 45%;
+    width: 70%;
+    background-color:;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    top: 43%;
+    left: 27%;
+}
+.e{
+    height:80%;
+    width: 80%;
+    background-color: ;
+    position: absolute;
+    top: 150%;
+}
+.e1{
+    height: 80%;
+    width: 60%;
+    background-color: #1847B8;
+    border-radius: 20px;
+    position: absolute;
+    top: 7%;
+    left: 9%;
+}
+.e11{
+    height: 17%;
+    width: 50%;
+    background-color: ;
+    color: white;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 11%;
+    left: 10%;
+}
+.e12{
+    height: 30%;
+    width: 50%;
+    background-color:;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 29%;
+    left: 10%;
+}
+.e13{
+    height: 10%;
+    width: 20%;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+}
+.e14{
+    height: 10%;
+    width: 23%;
+    background-color: ;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 35px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.e2{
+    height: 80%;
+    width: 38%;
+    background-color: #E2E6E9;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/15/Business-Woman-Transparent-File.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 52%;
+}
+.f{
+    height: 70%;
+    width: 80%;
+    background-color:;
+    position: absolute;
+    top: 230%;
+}
+.f1{
+    height: 100%;
+    width: 40%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.f11{
+    height: 55%;
+    width: 67%;
+    background-color: #1847B8;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+}
+.f12{
+    height: 120%;
+    width: 55%;
+    background-color: white;
+    position: absolute;
+    box-shadow: -18px -13px 20px black;
+}
+.f13{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(38, 37, 37);
+    position: absolute;
+}
+.f14{
+    height: 55%;
+    width: 15%;
+    background-color:;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.f15{
+    height: 55%;
+    width: 15%;
+    background-color: ;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
+.f16{
+    height: 65%;
+    width: 90%;
+    background-color:;
+    color: orange;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 140%;
+    left: 5%;
+}
+.f17{
+    height: 100%;
+    width: 90%;
+    background-color:;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 210%;
+    left: 5%;
+}
+.f18{
+    height: 320%;
+    width: 90%;
+    background-color: grey;
+    border-radius: 10px;
+    background-image: url("https://thumbs.dreamstime.com/b/portrait-beautiful-woman-isolated-gray-background-93016831.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 350%;
+    left: 5%;
+}
+.f19{
+    height: 90%;
+    width: 38%;
+    background-color:;
+    color: black;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 700%;
+    left: 5%;
+}
+.f20{
+    height: 110%;
+    width: 30%;
+    background-color: ;
+    color:orange;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 800%;
+    left: 5%;
+}
+.f21{
+    height: 90%;
+    width: 38%;
+    background-color: ;
+    color: black;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 700%;
+    left: 55%;
+}
+.f22{
+    height: 110%;
+    width: 30%;
+    background-color: ;
+    color:orange;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 800%;
+    left: 55%;
+}
+.f3{
+    height: 100%;
+    width: 60%;
+    background-color:;
+    position: absolute;
+    left: 40%;
+}
+.f31{
+    height: 8%;
+    width: 20%;
+    background-color:;
+    color: grey;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.f32{
+    height: 18%;
+    width: 50%;
+    background-color: ;
+    color: black;
+    font-size: 42px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.f33{
+    height: 15%;
+    width: 78.3%;
+    background-color: ;
+    color: black;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.f34{
+    height: 6%;
+    width: 40%;
+    background-color: ;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.f35{
+    height: 100%;
+    width: 10%;
+    background-color: ;
+    position: absolute;
+    color: orange;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f36{
+    height: 100%;
+    width: 90%;
+    background-color: ;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+}
+.f37{
+    height: 6%;
+    width: 40%;
+    background-color: ;
+    position: absolute;
+    top: 61%;
+    left: 5%;
+}
+.f38{
+    height: 100%;
+    width: 10%;
+    background-color: ;
+    position: absolute;
+    color: orange;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f39{
+    height: 100%;
+    width: 90%;
+    background-color: ;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+}
+.f4{
+    height: 10%;
+    width: 20%;
+    background-color: #1847B8;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    position: absolute;
+    top: 72%;
+    left: 5%;
+}
+.f41{
+    height: 7%;
+    width: 20%;
+    background-color: ;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 83%;
+    left: 5%;
+}
+.f5{
+    height: 30%;
+    width: 80%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300%;
+}
+.f51{
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+}
+.f52{
+    height: 100%;
+    width: 14%;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.f53{
+    height: 45%;
+    width: 60%;
+    background-color: #1847B8;
+    background-image: url("https://www.socialasana.in/assets/images/Social-Asana-Mobile%20No..png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 300px;
+    position: absolute;
+}
+.f54{
+    height: 100%;
+    width: 66%;
+    background-color: ;
+    position: absolute;
+    left: 14%;
+}
+.f55{
+    height: 30%;
+    width: 55%;
+    background-color: ;
+    color: black;
+    font-size: 42px;
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+.f56{
+    height: 30%;
+    width: 67%;
+    background-color: ;
+    color: rgb(72, 71, 71);
+    font-size: 20px;
+    font-weight:500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+.f57{
+    height: 100%;
+    width: 31%;
+    background-color:;
+    position: absolute;
+    left:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f58{
+    height: 25%;
+    width: 85%;
+    border-radius: 25px;
+    background-color: #1847B8;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

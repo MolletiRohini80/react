@@ -1,0 +1,75 @@
+.a{
+    height: 15%;
+    width: 20%;
+    border-radius: 100px;
+    background-color: azure;
+    border: 2px solid white;
+    box-shadow: 2px 2px 20px black;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background-color: ;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201015/pngtree-blue-cartoon-sky-background-cloud-image_418494.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.a::before{
+    content: "";
+    height: 80%;
+    width: 30%;
+    border-radius: 100%;
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    z-index: 1;
+}
+ .a:hover::before{
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    transition: all 3s;
+    position: absolute;
+    left: 67%;
+}
+.a:hover::after{
+    animation-name: ani1;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    transition: all 3s;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201015/pngtree-blue-cartoon-sky-background-cloud-image_418494.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+@keyframes ani{
+    0%{
+        background-image: url("https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png");
+    }
+    15%{
+        background-image: url("http://clipart-library.com/img/1669853.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+} 
+@keyframes ani1{
+    0%{
+        background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201015/pngtree-blue-cartoon-sky-background-cloud-image_418494.jpg");
+
+    }
+    70%{
+        background-image: url("https://t3.ftcdn.net/jpg/03/20/75/32/360_F_320753272_TvaIZ9oXLOLIwloBaJRlwOHnaIxCdG6w.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}

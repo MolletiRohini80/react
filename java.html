@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <!-- <script type="module">
+            import x from "./JS_1.js"
+            console.log(x);
+        </script> -->
+    </head>
+    <body>
+        <script>
+            //  var x=window.prompt("enter x number");
+            //  var y=window.prompt("enter y number");
+            //  if(x>y){
+            //     document.write(x);
+            //  }
+            //  else{
+            //     document.write(y);
+            //  }
+    
+            // for(var i=0;i<x;i++){
+            //     if(x%2==0){
+            //         document.write("ok");
+            //         break;
+            //     }
+            //     else{
+            //         document.write("not ok");
+            //         break;
+            //     }
+            // }
+     
+            //  var a=[10,20,30,40,50,60,70]
+            // a.map(ele=>{
+            //     document.write(ele," ")
+            // })
+            // document.write(a.unshift(12)+"<br>")
+            // document.write(a.slice(1,5)+"<br>")
+            // a.splice(2,0,12,13)
+            // document.write(a)
+    
+    
+            // var x=window.prompt("enter a number")
+            // var c=0
+            // for(var i=0;i<x;i++){
+            //     if(x%2==0){
+            //         c+=1
+            //     }
+            // }
+            // if(c==2){
+            //     document.write("prime")
+            // }
+            // else{
+            //     document.write("not prime")
+            // }
+    
+    
+    // Date module:
+            // var x=new Date();
+            // var y=x.getMonth()+1;
+            // document.write(x.getDate()+"-"+ y+"-"+x.getFullYear()+"<br>");
+            // document.write(x.getHours()+"<br>");
+            // document.write(x.getMilliseconds()+"<br>");
+            // document.write(x.getSeconds());
+    
+    //Math module:
+            // document.write(Math.round(4.3)+"<br>"); //nearest integer
+            // document.write(Math.ceil(4.3)+"<br>"); //highest near integer
+            // document.write(Math.floor(4.3)+"<br>");  //lowest near integer
+            // document.write(Math.trunc(4.3)+"<br>"); //earse all integer values
+            // document.write(Math.sqrt(25)+"<br>");
+            // document.write(Math.pow(5,2)+"<br>");
+            // console.log(Math.abs(1/3))
+            // console.log(Math.sign(-74))
+            // console.log(Math.max(12,3,4,134,789,2424))
+    
+    //functions
+            //function tara(a,b,c=12){
+                //return(a+b+c)
+            //}
+            //console.log(tara(2,4));
+    
+    //error handling
+            // try{
+            //     {
+            //      var x=10;
+            //     }
+            //     console.log(x);
+            // }
+            // try{
+            //     var x=window.prompt("enter a name");
+            //     if(x==='a'){
+            //         console.log("jaffa");
+            //     }
+            // }
+            // catch(e){
+            //      console.log(e);
+            // }
+            // finally{
+            //     console.log("hello how are u?");
+            // }
+    
+            // try{
+            //     var x=window.prompt("enter a number");
+            //     x.upper();
+            //     console.log(x);
+            // }
+            // catch(e){
+            //     console.log(e.name);
+            // }
+
+
+            // var x=parseInt(window.prompt("enter a number"));
+            // if(90<x<=100){
+            //     console.log('A');
+            // }
+            // else if(80<x<=90){
+            //     console.log('B');
+            // }
+            // else if(70<x<=80){
+            //     console.log('C');
+            // }
+            // else if(60<x<=70){
+            //     console.log('D')
+            // }
+            // else{
+            //     console.log('fail');
+            // }
+//heroen's formula
+            // var a=parseInt(window.prompt("enter a number"));
+            // var b=parseInt(window.prompt("enter b number"));
+            // var c=parseInt(window.prompt("enter c number")); 
+            // var s=(a+b+c)/2;
+            // var x=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+            // console.log(x);
+    
+//square root
+            var a=parseFloat(window.prompt("enter a number"));
+            var b=parseFloat(window.prompt("enter b number"));
+            var c=parseFloat(window.prompt("enter c number")); 
+            var x=(b*b-(4*a*c));
+            if(x<0){
+                console.log("not roots");
+            }
+            else{
+                var root1=((-b+Math.sqrt(x))/(2*a));
+                var root2=((-b-Math.sqrt(x))/2*a);
+                console.log(root1,root2)
+            }
+            </script>
+    </body>
+</html>

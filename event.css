@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/vFRb57E.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+    width: 43%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 45px black;
+}
+
+.a{
+    height: fit-content;
+    width: fit-content;
+    background-color:white;
+    background-image: url("http://weandthecolor.com/wp-content/uploads/2016/04/Some-fun-stuff-created-for-Lifesum.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 2px solid black; */
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}

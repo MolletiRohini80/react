@@ -1,0 +1,159 @@
+/* .a{
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+    transition-timing-function:ease-in;
+    transition-duration: 3s;
+}
+.a:hover{
+    width: 20%;
+    height: 40%;
+    border-radius: 300px;
+    background-color: aqua;
+    transform: rotate(360deg);
+} */
+/* .a{
+    width: 30%;
+    height: 30%;
+    list-style-type: none;
+}
+.a li::after{
+    content: "Bye";
+}
+.a:hover{
+    height: 40%;
+    width: 40%;
+    background-color:bisque;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+    font-size: 25px;
+} */
+.a{
+  width: 10%;
+  height: 10%;
+  border-radius: 25px;
+  background:linear-gradient(to right,grey,white);
+  transition: all 1s;
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 15px black;
+  overflow: hidden;
+  position: relative;
+  font-size: 25px;
+  right: 5%;
+  z-index: 9999;
+}
+.a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 180px;
+    border-radius: 15px;
+    /* transform: skew(30deg); */
+    background-image: url("https://wallpaperaccess.com/full/695413.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 100%;
+    transition: all 1s;
+    z-index: -9999;
+}
+.a:hover::before {
+   left: 0%;
+}
+.a:hover{
+    width: 20%;
+    height: 20%;
+    color: white;
+}
+.b{
+    height: 30%;
+    width: 10%;
+    border-radius: 300px;
+    background-color: black;
+    border: 2px solid white;
+    /* box-shadow: 2px 2px 15px blue; */
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.Ufj1O2yrMts4ELw5bCgBWAHaEo&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    overflow: hidden;
+    transition: all 1s;
+    font-size: 25px;
+    left: 55%;
+    color: white;
+    z-index: 9999;
+}
+.b::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "LIGHT";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: antiquewhite;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.yhnn6wWDxO9A0DRNCXYzaQHaEE&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 1s;
+    /* transform: rotate(10deg); */
+    bottom: 110%;
+    left: 0%;
+}
+.b:hover::before{
+    bottom: 0%;
+}
+.b:hover{
+    color: black;
+    font-size: 30px;
+}
+.c{
+    width: 15%;
+    height: 13%;
+    /* background-color: antiquewhite; */
+    border: 2px solid white;
+    position: absolute;
+    bottom: 70%;
+    transition: all 1s;
+    overflow: hidden;
+}
+.c::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP._noHOGu8nMsPORJ0gCwsqwHaHZ&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 25px;
+    content: "CLICK";
+    color: black;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 1200%;
+    border-bottom-left-radius: 1200%;
+    background-color:beige;
+    position: absolute;
+    transition: all 1s;
+    top: 0%;
+    left: 120%;
+}
+.c:hover::before{
+    left: 19%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
